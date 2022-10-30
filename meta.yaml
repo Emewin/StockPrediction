@@ -1,4 +1,4 @@
-{% set name = "yahooticker" %}
+{% set name = "yfinance" %}
 {% set version = "0.1.48" %}
 
 package:
@@ -31,7 +31,7 @@ requirements:
 
 test:
   imports:
-    - yahooticker
+    - yfinance
 
 about:
   home: "https://github.com/ranaroussi/yfinance"
@@ -41,7 +41,7 @@ about:
   summary: "Yahoo! Finance market data downloader"
   description:
   doc_url: "https://github.com/ranaroussi/yfinance"
-  dev_url: "https://pypi.python.org/pypi/yahooticker"
+  dev_url: "https://pypi.python.org/pypi/yfinance"
   doc_source_url: https://github.com/ranaroussi/yfinance/blob/master/README.rst
 
 

@@ -1,5 +1,5 @@
 __pycache__/*
-yahooticker/__pycache__/*
+yfinance/__pycache__/*
 dist
-yahooticker.egg-info
+yfinance.egg-info
 *.pyc

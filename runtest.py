@@ -15,10 +15,10 @@ Sanity check for most common library uses all working
 """
 
 from __future__ import print_function
-import yahooticker as yf
+import yfinance as yf
 
 
-def test_yahooticker():
+def test_yfinance():
     for symbol in ['MSFT', 'IWO', 'VFINX', '^GSPC', 'BTC-USD']:
         print(">>", symbol, end=' ... ')
         ticker = yf.Ticker(symbol)
@@ -39,4 +39,4 @@ def test_yahooticker():
 
 
 if __name__ == "__main__":
-    test_yahooticker()
+    test_yfinance()

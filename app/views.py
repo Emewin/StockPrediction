@@ -7,7 +7,7 @@ import ssl
 import flask
 import json
 from datetime import datetime, timedelta
-import yahooticker as yf
+import yfinance as yf
 
 #access to blob storage
 import os, uuid
@@ -47,14 +47,14 @@ def index():
 
     #response list from server
     resultlist= ['','','','','','']
-    #current values from yahooticker (also has adj close and volume)
+    #current values from yfinance (also has adj close and volume)
     latest_values= ['','','','','','']
     marketopen=None
     custominput=None
     
     if request.method == 'POST':
         
-        #Downloads fresh DB from yahooticker
+        #Downloads fresh DB from yfinance
         x=datetime.now()
         date_N_days_ago = datetime.now() - timedelta(days=7)
         msft = yf.Ticker("MSFT")

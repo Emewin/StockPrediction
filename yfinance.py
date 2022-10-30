@@ -1,4 +1,4 @@
-import yahooticker as yf
+import yfinance as yf
 from datetime import datetime, timedelta
 
 x=datetime.now()

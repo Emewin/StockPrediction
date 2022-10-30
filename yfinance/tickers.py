@@ -40,7 +40,7 @@ def genTickers(tickers):
 class Tickers():
 
     def __repr__(self):
-        return 'yahooticker.Tickers object <%s>' % ",".join(self.symbols)
+        return 'yfinance.Tickers object <%s>' % ",".join(self.symbols)
 
     def __init__(self, tickers):
         tickers = tickers if isinstance(

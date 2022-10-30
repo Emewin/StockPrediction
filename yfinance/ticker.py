@@ -37,7 +37,7 @@ from .base import TickerBase
 class Ticker(TickerBase):
 
     def __repr__(self):
-        return 'yahooticker.Ticker object <%s>' % self.ticker
+        return 'yfinance.Ticker object <%s>' % self.ticker
 
     def _download_options(self, date=None, proxy=None):
         if date is None:
