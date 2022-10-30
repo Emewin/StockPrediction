@@ -2,7 +2,7 @@
 # -*- coding: UTF-8 -*-
 #
 # Yahoo! Finance market data downloader (+fix for Pandas Datareader)
-# https://github.com/emewin/yahooticker
+# https://github.com/ranaroussi/yfinance
 
 """Yahoo! Finance market data downloader (+fix for Pandas Datareader)"""
 
@@ -22,7 +22,7 @@ setup(
     version="0.1.54",
     description='Yahoo! Finance market data downloader',
     long_description=long_description,
-    url='https://github.com/emewin/yahooticker',
+    url='https://github.com/ranaroussi/yfinance',
     author='Anwar Aatif',
     author_email='ran@aroussi.com',
     license='Apache',

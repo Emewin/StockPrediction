@@ -2,7 +2,7 @@
 # -*- coding: UTF-8 -*-
 #
 # Yahoo! Finance market data downloader (+fix for Pandas Datareader)
-# https://github.com/emewin/yahooticker
+# https://github.com/ranaroussi/yfinance
 
 """
 Sanity check for most common library uses all working

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 # Yahoo! Finance market data downloader (+fix for Pandas Datareader)
-# https://github.com/emewin/yahooticker
+# https://github.com/ranaroussi/yfinance
 #
 # Copyright 2022 -  Anwar Aatif
 #

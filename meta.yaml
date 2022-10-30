@@ -34,15 +34,15 @@ test:
     - yahooticker
 
 about:
-  home: "https://github.com/emewin/yahooticker"
+  home: "https://github.com/ranaroussi/yfinance"
   license: "Apache Software"
   license_family: "APACHE"
   license_file: ""
   summary: "Yahoo! Finance market data downloader"
   description:
-  doc_url: "https://github.com/emewin/yahooticker"
+  doc_url: "https://github.com/ranaroussi/yfinance"
   dev_url: "https://pypi.python.org/pypi/yahooticker"
-  doc_source_url: https://github.com/emewin/yahooticker/blob/master/README.rst
+  doc_source_url: https://github.com/ranaroussi/yfinance/blob/master/README.rst
 
 
 extra:
